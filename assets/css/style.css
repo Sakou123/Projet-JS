@@ -12,6 +12,12 @@
 #text-live{
     font-size: 2em;
 }
+#img{
+    width: 50px;
+    transform: translate(180px,-60px);
+    visibility: hidden;
+}
+
 /* PROGRESS BAR */
 .progress-container {
     height: 1.2rem;
@@ -25,7 +31,6 @@
     width: 0;
     border-radius: 0.4rem;
   
-    background: #ff4754;
-  
-    transition: width 0.1s ease;
-}
+    background: #18DC54;
+    /* transition: width 0.5s ease, background-color 0.5s ease
+} */
