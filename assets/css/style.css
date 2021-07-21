@@ -1,0 +1,31 @@
+/* HTML */
+#text{
+    height: 200px;
+    width: 100%;
+    resize:none;
+    font-size: 2em;
+}
+#count{
+    text-align: right;
+}
+/* LIVE */
+#text-live{
+    font-size: 2em;
+}
+/* PROGRESS BAR */
+.progress-container {
+    height: 1.2rem;
+    width: 100%;
+    border-radius: 0.4rem;
+  
+    background: #000;
+}
+#progress-bar {
+    height: 100%;
+    width: 0;
+    border-radius: 0.4rem;
+  
+    background: #ff4754;
+  
+    transition: width 0.1s ease;
+}
