@@ -1,6 +1,6 @@
 
 var text = document.getElementById('text');
-var max = 200;
+var max = 20;
 var textlive = document.getElementById('text-live');
 
 text.onkeyup = text.onkeypress = function(){
@@ -16,11 +16,10 @@ text.onkeyup = text.onkeypress = function(){
 
     let progress = 100*textlive.textContent.length/max;
 
-    document.getElementById("progress-bar").style.setProperty('width',progress.toString()+'%');
+    document.getElementById("progress-bar").style.setProperty('width',progress+'%');
     
     // if (KeyboardEvent.keyCode == 13) mafonction()
-    // textarea.value
-    
+
     //LE SWITCH VEUT PAS MARCHER DONC YEET
 
     if (progress<8){
